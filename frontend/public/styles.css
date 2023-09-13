@@ -1,0 +1,1047 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+    position: relative;
+    font-family: 'HarryPotter', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-color: #020100e2;
+    text-decoration: none;
+}
+
+/* навбар */
+.navbar {
+    background-image: url(./123.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e3b983;
+    width: 100%;
+    height: 170px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7), 0 0px 5px rgba(0, 0, 0, 0.321);
+
+}
+
+.icon {
+    width: min-content;
+    height: min-content;
+    margin-left: -50px;
+    margin-bottom: -34px;
+    opacity: 0.4;
+}
+
+.search {
+    margin-bottom: auto;
+    margin-top: 4.2%;
+    margin-left: 2%;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.searchh {
+    border-radius: 40px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px 70px;
+    background: #fcf0e4;
+    transition: all 0.3s ease;
+    width: 240px;
+}
+
+.searc {
+    background: #fcf0e4;
+    margin-left: -3%;
+    border: 0;
+    width: 100%;
+}
+
+.searc:focus {
+    outline: none;
+}
+
+/* контейнер */
+.navb {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* логотип */
+.navbar-brand {
+    display: relative;
+    position: center center;
+    margin-top: -14%;
+    margin-left: 46%;
+    margin-right: auto;
+    transform: all .3s ease-in-out;
+}
+
+/* лого при наведении */
+.navbar-brand:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
+}
+
+/* авторизация */
+.navb.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    transform: all .1s ease-in-out;
+}
+
+.navbar-menu button {
+
+    font-size: 250%;
+    outline: none;
+    border: 0;
+    opacity: 0.7;
+    background: transparent;
+    font-family: 'HarryPotter', sans-serif;
+    display: inline;
+    cursor: pointer;
+    position: relative;
+}
+
+.avto {
+    display: relative;
+    position: center center;
+    margin-bottom: 210px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.bask {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 210px;
+}
+
+.avto:hover {
+    opacity: 1;
+}
+
+.bask:hover {
+    opacity: 1;
+}
+
+.baskk:hover {
+    opacity: 1;
+}
+
+.admin {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 210px;
+}
+
+.admin:hover {
+    opacity: 1;
+}
+
+.exit:hover {
+    opacity: 1;
+}
+
+.exit {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 210px;
+}
+
+.ramka {
+    width: 400px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 36%;
+    margin-right: auto;
+    background: rgba(197, 146, 83, 0.13);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    color: #fff0dd;
+    font-size: 29px;
+    font-family: 'HarryPotter', sans-serif;
+    text-align: center;
+    position: relative;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: -5% 10%;
+}
+
+.form {
+    padding: -100px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff7d4;
+    font-size: 13px;
+    position: relative;
+
+}
+
+.mauto {
+    margin-top: 8%;
+    font-size: 40px;
+    margin-bottom: 15%;
+}
+
+.fr {
+    margin-top: -5%;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+.frm {
+    margin-top: 5%;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+.Bt {
+    font-size: 25px;
+    padding: 20px 10px;
+
+}
+
+.Btt {
+    color: #ffd34e;
+}
+
+.Btv {
+    width: 120px;
+    background: #fff8d6;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.types {
+    display: inline-block;
+    position: center;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 38px;
+    margin-right: 38px;
+    font-size: 37px;
+    color: #f7d494;
+    text-shadow: 0 7px 3px rgba(0, 0, 0, 0.8);
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+.ram {
+    margin-top: -1%;
+    margin-left: 3%;
+}
+
+.raminv {
+    margin-top: -1.9%;
+    margin-right: 3%;
+    transform: scaleX(-1);
+}
+
+.adminpan {
+    width: 700px;
+    height: 500px;
+    display: block;
+    position: center;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(197, 146, 83, 0.13);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.7);
+
+}
+
+.admbut {
+    width: 450px;
+    background: #fff8d6;
+    display: block;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.tex {
+    color: #fff0dd;
+    font-size: 38px;
+    font-family: 'HarryPotter', sans-serif;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.prpage {
+    background-color: #0b0600a0;
+    width: 280px;
+    height: 360px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    border-radius: 3px;
+    position: center;
+    margin-top: 2%;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.improd {
+    width: 250px;
+    height: 240px;
+    margin-left: -32px;
+}
+
+.price {
+    font-size: 23px;
+}
+
+.fon {
+    background-color: #ffeacaeb;
+    position: relative;
+    justify-content: center;
+    margin-top: 1%;
+    border-radius: 2px;
+    box-shadow: 0 10px 14px 1px rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fonkart {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    margin-top: 5%;
+    display: inline-block;
+    margin-left: -50%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 6%;
+
+}
+
+.levo {
+    margin-top: -45%;
+    margin-left: 50%;
+    margin-bottom: -6%;
+}
+
+.productname {
+    position: relative;
+    font-size: 40px;
+    color: #170e00e7;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.productprice {
+    position: relative;
+    font-size: 45px;
+    color: #170e00e7;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Btv2 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    background: #be7515;
+    font-family: 'HarryPotter', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.Btv2:hover {
+    background: #a03720;
+    color: rgb(244, 239, 239);
+
+}
+
+.info {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 25px;
+}
+
+
+.line {
+    position: center;
+    margin-top: -2%;
+}
+
+
+.nametype {
+    font-size: 15px;
+    display: block;
+    margin-top: 15%;
+    margin-bottom: 1%;
+    padding: 10px 70px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 5px;
+    width: 250px;
+}
+
+.Btv3 {
+    position: center;
+    text-align: center;
+    width: 190px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 5;
+    border-color: rgb(230, 84, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline;
+    margin-top: 48%;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.selecttype {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5px 40px;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+.num {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 65%;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: -7%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.num2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+    left: 9%;
+    margin-right: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+}
+
+.selectfile {
+    display: block;
+    padding: 30px 100px;
+    margin-right: auto;
+    margin-left: -12%;
+}
+
+.delete {
+    display: block;
+    margin-top: 1%;
+    border: 5;
+    border-color: rgb(230, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: -8%;
+}
+
+.hhh {
+    vertical-align: bottom;
+}
+
+.dflex {
+    display: inline-block;
+    position: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+.pages {
+    display: block;
+    margin-top: 3%;
+    text-decoration: none;
+    position: center;
+    text-align: center;
+}
+
+.pag {
+    display: inline-block;
+    height: 33px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-style: bold;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.pag:hover {
+    background-color: #4b2e0841;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pag:active {
+    background-color: #be7515;
+}
+
+.pag:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.pag:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.hh {
+    padding: 20px 20px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: -17px;
+}
+
+.div1 {
+    display: inline;
+    margin-top: 10px;
+    margin-left: -70%;
+}
+
+.pr2 {
+    display: inline-block;
+}
+
+.baskets {
+    background-color: #0b0600a0;
+    width: 280px;
+    height: 360px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text {
+    margin-top: 4px;
+    font-size: 25px;
+    color: #fff5d3;
+    vertical-align: top;
+}
+
+.btv7 {
+    margin-top: -22px;
+    margin-left: 225px;
+    cursor: pointer;
+}
+
+.btv8 {
+    background: #be7515;
+    border-radius: 10;
+    padding: 5px 10px;
+}
+
+.zenz {
+    margin-top: -5%;
+    font-size: 25px;
+}
+
+.num4 {
+    position: relative;
+    font-size: 13px;
+    padding: 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -80px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+}
+
+.num5 {
+    position: relative;
+    /* display: block; */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 9%;
+    margin-right: 60%;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.selecttype2 {
+    display: block;
+    margin-top: -24px;
+    padding: 5px 50px;
+    margin-left: -20px;
+    flex-flow: column wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.selecttype1 {
+    display: block;
+    margin-top: 40px;
+    padding: 5px 40px;
+    /* margin-right: auto; */
+    margin-left: 1%;
+    margin-right: 3%;
+
+}
+
+/* модальные окна */
+.modal {
+    position: relative;
+    overflow: auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-top: -45%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 245, 232);
+    box-shadow: 0 10px 14px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+}
+
+/* изменить товар */
+.headmodal {
+    margin-top: 5%;
+    position: relative;
+    margin-left: 5%;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Btv4 {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border: 5;
+    border-color: rgb(230, 84, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.Btv_4 {
+    position: absolute;
+    right: 7px;
+    top: 60px;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 5;
+    border-color: rgb(230, 84, 0);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.lhalf {
+    width: max-content;
+    height: max-content;
+}
+
+ul {
+    position: relative;
+    margin: 40px;
+    padding: 0px;
+    list-style: none;
+    display: block;
+    justify-content: center;
+
+}
+
+ul.dropdown {
+    position: relative;
+    width: 100%;
+}
+
+ul.dropdown li {
+    font-weight: bold;
+    float: left;
+    width: 300px;
+    position: relative;
+    background: #e8e0d2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.dropdown a:hover {
+    color: #000;
+}
+
+ul.dropdown li a {
+    display: block;
+    padding: 8px 10px;
+    color: #2e251b;
+    position: relative;
+    z-index: 2000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+ul.dropdown li a:hover,
+ul.dropdown li a.hover {
+    background: #dc8a17;
+    position: relative;
+    color: #fff;
+}
+
+
+ul.dropdown ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    z-index: 1000;
+}
+
+ul.dropdown ul li {
+    font-weight: normal;
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.dropdown ul li a {
+    display: block;
+    color: #dc8a17 !important;
+    background: #eee !important;
+}
+
+ul.dropdown ul li a:hover {
+    display: block;
+    background: #db8234 !important;
+    color: #fff !important;
+}
+
+.drop>a {
+    position: relative;
+    width: 300px;
+}
+
+.drop>a:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #ffd18b;
+    border-right: 5px solid transparent;
+    z-index: 999;
+}
+
+.drop>a:hover:after {
+    content: "";
+    border-left: 5px solid transparent;
+    border-top: 5px solid #432f0f;
+    border-right: 5px solid transparent;
+}
+
+
+.nameproduct {
+    font-weight: bold;
+    float: left;
+    width: 300px;
+    height: 48px;
+    position: relative;
+}
+
+.param {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    flex-flow: column wrap;
+}
+
+.vv {
+    position: relative;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.plus {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.plus1 {
+    position: relative;
+}
+
+
+
+.num3 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    padding: 8px 5px;
+    width: 220px;
+    text-align: left;
+}
+
+.num31 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 8px 25px;
+    width: 180px;
+    margin-left: 40px;
+    /* height: 8px; */
+    text-align: left;
+}
+
+.num33 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 8px 25px;
+    width: 200px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.num32 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 8px 25px;
+    width: 300px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.selecttyped {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-right: auto;
+    margin-left: -8%;
+    text-align: left;
+    padding: 5px 5px;
+    width: 230px;
+}
+
+
+
+.wer {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.num4 {
+    position: relative;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-right: -100px;
+    margin-left: -5px;
+}
+
+.nameproduct2 {
+    font-weight: bold;
+    float: left;
+    width: 235px;
+    height: 36px;
+    position: relative;
+    margin-top: -12%;
+
+}
+
+ul.dropdown2 li {
+    font-weight: bold;
+    float: left;
+    width: 235px;
+    position: relative;
+    background: #e8e0d2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.dropdown2 {
+    position: relative;
+    width: 100%;
+
+}
+
+
+ul.dropdown2 a:hover {
+    color: #000;
+
+}
+
+ul.dropdown2 li a {
+    display: block;
+    padding: 8px 10px;
+    color: #2e251b;
+    position: relative;
+    z-index: 2000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+
+}
+
+ul.dropdown2 li a:hover,
+ul.dropdown2 li a.hover {
+    background: #dc8a17;
+    position: relative;
+    color: #fff;
+}
+
+
+ul.dropdown2 ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    z-index: 1000;
+}
+
+ul.dropdown2 ul li {
+    font-weight: normal;
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.dropdown2 ul li a {
+    display: block;
+    color: #dc8a17 !important;
+    background: #eee !important;
+}
+
+ul.dropdown2 ul li a:hover {
+    display: block;
+    background: #db8234 !important;
+    color: #fff !important;
+}
+
+.vv1 {
+    position: relative;
+    left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: -10%;
+    padding: 30px 10px;
+}
+
+@font-face {
+    font-family: "HarryPotter";
+    src: url("./HarryPotter.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.aaa {
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 5;
+    font-family: "HarryPotter";
+    border-color: rgb(210, 77, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aaa:hover {
+    background: #a03720;
+    color: rgb(244, 239, 239);
+}
